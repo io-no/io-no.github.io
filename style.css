@@ -81,7 +81,7 @@ mark {
     -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
     animation: 1.5s highlight 1.5s 1 normal forwards;
     background-color: none;
-    background: linear-gradient(90deg, #DDE6ED 50%,  #27374D 0%);
+    background: linear-gradient(to left, transparent 51%, #DDE6ED 0%) right;
     background-size: 200% 100%;
     background-position: 100% 0;
 }
@@ -149,7 +149,7 @@ mark {
     color: #DDE6ED;
     font-size: 2rem;
     text-decoration: none;
-    background: linear-gradient(to left, transparent 50%, #DDE6ED 0%) right;
+    background: linear-gradient(to left, transparent 52%, #DDE6ED 0%) right;
     background-size: 200% 100%;
     transition: 0.5s ease-out;
   }
