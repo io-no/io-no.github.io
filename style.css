@@ -123,6 +123,15 @@ mark {
     border-top: 1px solid rgba(255,255,255,0.2);
   }
 
+.li_contact + .li_contact  {
+    border-top: 1px solid rgba(255,255,255,0.2);
+  }
+
+.li_contact {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
 .link {
     font-weight: 300;
     color: #DDE6ED;
@@ -156,5 +165,21 @@ mark {
 .title{
   text-align: center;
 }
-  
-  
+ 
+.contact-text{
+  text-align: center;
+  color: #DDE6ED;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.no-margin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em; 
+  color: #DDE6ED;
+}
