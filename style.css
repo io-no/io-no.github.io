@@ -27,6 +27,18 @@ body {
   }
 }
 
+.footer-card{
+  margin-top: 4em;
+  margin-bottom: 1em;
+  background-color: #27374D;
+}
+@media (min-width: 576px) {
+  .footer-card{
+      margin-left: 5em;
+      margin-right: 5em;
+  }
+}
+
 .in-card{
   background-color: #025464;
 
@@ -182,4 +194,8 @@ mark {
   align-items: center;
   font-size: 2em; 
   color: #DDE6ED;
+}
+
+.rights {
+  font-size: 1em;
 }
