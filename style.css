@@ -1,0 +1,131 @@
+body {
+    background-color: #9DB2BF; 
+  }
+
+
+.rounded{
+    margin-top: 2em;
+    margin-bottom: 4em;
+    background-color: #27374D;
+}
+@media (min-width: 576px) {
+    .rounded{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+}
+
+.social-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+.social-icons i {
+    margin: 0.5em;
+    font-size: 2em; 
+    color: #DDE6ED;
+  }
+
+.display-2 {
+    font-weight: 600;
+    background-image: repeating-linear-gradient(to right, #D4ADFC, #FFE194 20%, #BE5A83 30%);
+    color: transparent;
+    background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.display-4 {
+    color: #DDE6ED;
+}
+
+h5 {
+    font-weight: 350;
+    color: #DDE6ED;
+    text-align: justify;
+}
+
+mark {
+    color: #27374D;
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+    animation: 1.5s highlight 1.5s 1 normal forwards;
+    background-color: none;
+    background: linear-gradient(90deg, #DDE6ED 50%,  #27374D 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+}
+
+@-webkit-keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+  
+@keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+
+.name_surname {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.li_contents {
+    counter-increment: index; 
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Element counter */
+  .li_contents::before {
+    content: counters(index, ".", decimal-leading-zero);
+    font-size: 3rem;
+    text-align: right;
+    font-weight: 900;
+    min-width: 50px;
+    padding-right: 12px;
+    font-variant-numeric: tabular-nums;
+    align-self: flex-start;
+    background-image: repeating-linear-gradient(to left, #D4ADFC 5%, #FFE194 10%, #BE5A83 15%);
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+  /* Element separation */
+  .li_contents + .li_contents {
+    border-top: 1px solid rgba(255,255,255,0.2);
+  }
+
+  .link {
+    font-weight: 300;
+    color: #DDE6ED;
+    font-size: 2rem;
+    text-decoration: none;
+    background: linear-gradient(to left, transparent 50%, #DDE6ED 50%) right;
+    background-size: 200% 100%;
+    transition: 0.5s ease-out;
+  }
+  
+  .link:hover {
+    background-position: left;
+    color: #27374D;
+  }
+  
+  .ul_contents {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  
+  
