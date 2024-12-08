@@ -18,167 +18,170 @@
 <!-- Body -->
 <body>
 
+    <!-- Fixed Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent-blur fixed-top">
+        <div class="container-fluid">      
+          <!-- Toggler for mobile view -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPersistent" aria-controls="navbarPersistent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse justify-content-center" id="navbarPersistent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="link nav-link custom-nav-link" aria-current="page" href="#01">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="link nav-link custom-nav-link" href="#02">CTFs</a>
+              </li>
+              <li class="nav-item">
+                <a class="link nav-link custom-nav-link" href="#03">libdebug</a>
+              </li>
+              <li class="nav-item">
+                <a class="link nav-link custom-nav-link" href="#04">Publications</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+    <div class="container p-3">
+    </div>
+      
     <!-- Landscape Card -->
-    <div class="rounded first-card p-3 shadow-lg">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-1 social-icons">
-                    <div class="row-md-2"> </div>
-                    <div class="row-md-8">
-                        <a href="https://www.linkedin.com/in/io-no/"><i class="bi bi-linkedin"></i></a>
-                        <a href="https://twitter.com/Io_no__"><i class="bi bi-twitter"></i></a>
-                        <a href="https://github.com/gabriele180698"><i class="bi bi-github"></i></a>
-                    </div>
-                    <div class="row-md-2"> </div>
-                  </div>
-                <div class="col-md-6">
-                    <div class="name_surname"> 
-                        <h1 class="display-2">Gabriele</h1>
-                        <h1 class="display-2">Digregorio</h1>
-                        <h1 class="display-4">also known as <mark><b>Io_no</b></mark></h2>
-                    </div>
-                    <div class="name_surname">
-                        <h5 class="description">I'm a Computer Engineer with a deep interest in cybersecurity and a PhD candidate at Politecnico di Milano. I actively play with the <mark>Tower of Hanoi</mark> and <mark>mhackeroni</mark> CTF teams, engaging in activities such as exploiting and reversing binaries, as well as evaluating the security of machine learning and deep learning systems. I am also a maintainer of the <mark>libdebug</mark> project.</h5>
-                    </div>
-                </div> 
-                <div class="col-md-5 my-auto">
-                    <div class="d-flex justify-content-center">
-                        <ul class="ul_contents">
-                            <li class="li_contents"> <a class="link" href="#01"> &nbsp;Contact&nbsp;</a> </li>
-                            <li class="li_contents"> <a class="link" href="#02"> &nbsp;Publications&nbsp;</a> </li>
-                            <li class="li_contents"> <a class="link" href="#03"> &nbsp;libdebug&nbsp;</a> </li>
-                        </ul>
-                    </div>
-                </div>    
+    <div class="container p-5">
+        <div class="d-flex flex-column flex-md-row align-items-center">
+            <div class="col-md-1 mb-4 mb-md-0 social-icons">
+                <div class="row-md-2"> </div>
+                <div class="row-md-8">
+                    <a href="https://www.linkedin.com/in/io-no/"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://twitter.com/Io_no__"><i class="bi bi-twitter"></i></a>
+                    <a href="https://github.com/gabriele180698"><i class="bi bi-github"></i></a>
+                </div>
+                <div class="row-md-2"> </div>
+            </div>
+            <div class="col-md-3 mb-4 mb-md-0">
+                <img src="static/images/io_no.png" alt="Profile Picture" class="img-fluid rounded-circle white-shadow">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-7">
+                <div class="name_surname"> 
+                    <h1 class="display-2">Gabriele</h1>
+                    <h1 class="display-2">Digregorio</h1>
+                    <h1 class="display-4">also known as <mark><b>Io_no</b></mark></h2>
+                </div>
+                <div class="name_surname">
+                    <h5 class="description">I'm a Computer Engineer with a deep interest in cybersecurity and a PhD candidate at Politecnico di Milano. I actively play with the <mark>Tower of Hanoi</mark> and <mark>mhackeroni</mark> CTF teams, engaging in activities such as exploiting and reversing binaries, as well as evaluating the security of machine learning and deep learning systems. I am also a maintainer of the <mark>libdebug</mark> project.</h5>
+                </div>
             </div>
         </div>
     </div>
 
+
     <!-- Contact Card -->
-    <div class="out-card" id="01">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 social-icons order-md-1">
-                    <div class="row-md-2"> </div>
-                    <div class="row-md-8 mx-auto">
-                        <p class="number my-auto">01</p>
+    <div class="container p-5" id="01">
+        <h1 class="display-2 title">Contact</h2>
+        <div class="d-flex justify-content-center">
+            <ul class="ul_contents">
+                <li class="li_contact">
+                    <div class="row">
+                        <div class="col-md-2 no-margin my-auto"><i class="bi bi-envelope-fill"></i></div>
+                        <div class="col-md-10 my-auto">
+                            <div class="display-5 contact-text" style="color:#DDE6ED"> gabriele.digregorio[at]polimi.it </div>
+                        </div>
                     </div>
-                    <div class="row-md-2"> </div>
-                  </div>
-                <div class="col-md-8 order-md-2">
-                    <div class="rounded in-card p-3 shadow-lg">
-                            <h1 class="display-2 title">Contact</h2>
-                            
-                            <div class="d-flex justify-content-center">
-                                <ul class="ul_contents">
-                                    <li class="li_contact">
-                                        <div class="row">
-                                            <div class="col-md-2 no-margin my-auto"><i class="bi bi-envelope-fill"></i></div>
-                                            <div class="col-md-10 my-auto">
-                                                <div class="display-5 contact-text" style="color:#DDE6ED"> gabriele.digregorio&#8203;@&#8203;polimi.it </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                            
-                                
-                                    <li class="li_contact">
-                                        <div class="row">
-                                            <div class="col-md-2 no-margin my-auto"><i class="bi bi-geo-alt-fill"></i></div>
-                                            <div class="col-md-10 my-auto">
-                                                <div class="display-5 contact-text" style="color:#DDE6ED"> NECSTLab, Politecnico di Milano </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+                </li>
+                <li class="li_contact">
+                    <div class="row">
+                        <div class="col-md-2 no-margin my-auto"><i class="bi bi-geo-alt-fill"></i></div>
+                        <div class="col-md-10 my-auto">
+                            <div class="display-5 contact-text" style="color:#DDE6ED"> NECSTLab, Politecnico di Milano </div>
+                        </div>
                     </div>
-                </div>      
-                </div> 
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- libdebug Card -->
+    <div class="container p-5" id="02">
+        <h1 class="display-2 title">CTFs</h1>
+        <div class="row align-items-center p-4">
+            <div class="col-8 offset-2 col-md-2">
+                <img src="static/images/mhackeroni.png" alt="libdebug logo" class="img-fluid">
             </div>
+            <div class="col-12 col-md-7">
+                <p class="text-center">
+                <a href="https://toh.necst.it/" class="link card_link" target="_blank">
+                    <text>
+                    Member of mhackeroni since 2022.
+                    <br>
+                    <b>Winner of Hack-A-Sat 4</b>, the world's first CTF in space by the Air Force Research Laboratory.
+                    <br>
+                    Participated in both the <b>DEF CON 32 Finals</b> and <b>DEF CON 33 Finals</b>.
+                    </text>
+                </a>
+                </p>
+            </div> 
+        </div>
+        <div class="row align-items-center p-4">
+            <div class="col-8 offset-2 col-md-2">
+                <img src="static/images/tower_nocerchio_bianco.png" alt="libdebug logo" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7">
+                <p class="text-center">
+                <a href="https://toh.necst.it/" class="link card_link" target="_blank">
+                    Member of Tower of Hanoi since 2021.
+                    <br>
+                    Team treasurer since 2024.
+                </a>
+                </p>
+            </div> 
+        </div>
+    </div>
+    
+
+    <!-- libdebug Card -->
+    <div class="container p-5" id="03">
+        <h1 class="display-2 title">libdebug</h1>
+        <div class="row align-items-center p-4">
+            <div class="col-8 offset-2 col-md-2">
+                <img src="static/images/libdebug_logo_round.png" alt="libdebug logo" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-7">
+                <p class="text-center">
+                <a href="https://libdebug.org/" class="link card_link" target="_blank">
+                    Maintainer of libdebug, an open-source Python library to debug binary executables, your own way.
+                </a>
+                </p>
+            </div> 
         </div>
     </div>
 
     <!-- Publications Card -->
-    <div class="out-card" id="02">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 social-icons order-md-2">
-                    <div class="row-md-2"> </div>
-                    <div class="row-md-8 mx-auto">
-                        <p class="number my-auto">02</p>
-                    </div>
-                    <div class="row-md-2"> </div>
-                  </div>
-                <div class="col-md-8 order-md-1">
-                    <div class="rounded in-card p-3 shadow-lg">
-                            <h1 class="display-2 title">Publications</h2>
-                            <div class="row align-items-center p-4">
-                            <p class="text-center">
-                                <a href="https://re.public.polimi.it/retrieve/b288d77b-15a0-456a-90e8-2dd41d5f81e9/Tarallo_DIMVA.pdf" class="link_publication" target="_blank">
-                                    Tarallo: Evading Behavioral Malware Detectors in the Problem Space
-                                </a>
-                            </p>
-                            <p class="text-center">
-                                <a href="https://re.public.polimi.it/bitstream/11311/1274082/1/Federated_Intrusion_Detection_for_CAN___final.pdf" class="link_publication" target="_blank">
-                                    Evaluating the Impact of Privacy-Preserving Federated Learning on CAN Intrusion Detection
-                                </a>
-                            </p>
-                    </div>
-                </div>      
-                </div> 
-            </div>
-        </div>
+    <div class="container p-5" id="04">
+        <h1 class="display-2 title">Publications</h1>
+            <a href="https://re.public.polimi.it/retrieve/b288d77b-15a0-456a-90e8-2dd41d5f81e9/Tarallo_DIMVA.pdf" class="link card_link" target="_blank">
+                <text> <b>G. Digregorio</b>, S. Maccarrone, M. D'Onghia, et al., <i>“Tarallo: Evading behavioral malware detectors in the problem space,”</i> in International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment, Springer, 2024, pp. 128–149.</text>
+            </a>
+            <a href="https://re.public.polimi.it/bitstream/11311/1274082/1/Federated_Intrusion_Detection_for_CAN___final.pdf" class="link card_link" target="_blank">
+                <text> <b>G. Digregorio</b>, E. Cainazzo, S. Longari, M. Carminati, and S. Zanero, <i>“Evaluating the impact of privacy-preserving federated learning on can intrusion detection,”</i> in 2024 IEEE 99th Vehicular Technology Conference (VTC2024-Spring), IEEE, 2024, pp. 1–7.</text>
+            </a>
     </div>
 
-    <!-- Write-ups Card -->
-    <div class="out-card" id="03">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 social-icons order-md-1">
-                    <div class="row-md-2"> </div>
-                    <div class="row-md-8 mx-auto">
-                        <p class="number my-auto">03</p>
-                    </div>
-                    <div class="row-md-2"> </div>
-                  </div>
-                <div class="col-md-8 order-md-2">
-                    <div class="rounded in-card p-3 shadow-lg">
-                            <h1 class="display-2 title">libdebug</h1>
-                            <div class="display-8 text-center description">
-                                A Python library to debug binary executables, your own way.
-                            </div>
-                            <div class="row align-items-center p-4">
-                                <div class="col-8 offset-2 col-md-5 offset-md-0 col-lg-3 offset-lg-0 text-center">
-                                  <img src="static/images/libdebug_logo_round.png" alt="libdebug logo" class="img-fluid">
-                                </div>
-                                <div class="col-12 col-md-7 col-lg-9">
-                                  <p class="text-center">
-                                    <a href="https://libdebug.org/" class="link_project" target="_blank">
-                                        libdebug is open-source. Build your own debugger!
-                                    </a>
-                                  </p>
-                                </div> 
-                            </div>
-                    </div>
-                </div>      
-                </div> 
-            </div>
-        </div>
+    <!-- CV -->
+    <div class="floating-cv">
+        <a href="static/doc/Gabriele_Digregorio_CV.pdf" class="btn btn-primary" target="_blank">CV</a>
     </div>
-
-<!-- CV -->
-<div class="floating-cv">
-    <a href="static/doc/Gabriele_Digregorio_CV.pdf" class="btn btn-primary" target="_blank">CV</a>
-</div>
     
 </body>
 
 <footer>
-    <div class="rounded footer-card p-3 shadow-lg">
-        <div class="text-center display-2 rights">
-            &copy; Copyright <script>document.write(new Date().getFullYear())</script> by Io_no
-        </div>
+    <div class="text-center display-2 rights p-4">
+        &copy; Copyright <script>document.write(new Date().getFullYear())</script> by Io_no
     </div>
 </footer>
+
 
 </html>
