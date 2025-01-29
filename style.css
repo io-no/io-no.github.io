@@ -210,3 +210,9 @@ color: black;
 background-color: transparent;
 border-color: transparent;
 }
+code {
+  font-family: monospace;
+  word-break: break-word; /* Allows breaking at any point */
+  overflow-wrap: break-word; /* Ensures breaking within the container */
+  hyphens: auto; /* Adds hyphenation where possible */
+}
